@@ -1,0 +1,29 @@
+<view class="container">
+    <view class="title">{{title}}</view>
+    <view class="content">
+        <view class="userInfo">
+            <image src="{{avatar_url}}" class="authorIcon"  data-user="{{loginname}}" catchtap="userInto"></image>
+            <text>{{loginname}}</text>
+        </view>
+        <view class="consInfo">
+            <text>{{content}}</text>
+        </view>
+        <view class="count">reply：{{reply_count}}</view>
+    </view>
+    <view class="replay">
+        <block wx:for="{{replies}}">
+                <view class="item">
+                    <view class="userInfo">
+                        <image src="{{item.author.avatar_url}}" mode="scaleToFill" class="authorIcon"  data-user="{{item.author.loginname}}" catchtap="userInto"></image>
+                        <text class="user">{{item.author.loginname}}</text>
+                    </view>
+                    <view class="title">
+                        {{item.content}}
+                    </view>
+                    <view class="foot">
+                        <text class="type">{{item.create_at}}</text>
+                    </view>
+                </view>
+        </block>
+    </view>
+</view>

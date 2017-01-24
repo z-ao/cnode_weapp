@@ -1,0 +1,17 @@
+<template name="list">
+    <view wx:for="{{list}}">
+        <view class="item" bindtap="detail">
+            <view class="userInfo">
+                <image src="{{item.author.avatar_url}}" mode="scaleToFill"></image>
+                <text class="user">{{item.author.loginname}}</text>
+            </view>
+            <view class="title">
+                {{item.title}}
+            </view>
+            <view class="foot">
+                <text>回复数:{{item.reply_count}}</text>
+                <text class="type">{{item.tab}}</text>
+            </view>
+        </view>
+    </view>
+</template>

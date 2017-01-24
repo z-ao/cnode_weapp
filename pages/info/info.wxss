@@ -1,0 +1,20 @@
+
+.title{
+    line-height: 20px;
+    padding:10px;
+    background: #fff;
+}
+
+.content{
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 10px 5px;
+}
+
+.count{
+    height: 20px;
+}
+
+.foot{
+    height: 20px;
+}

@@ -1,0 +1,81 @@
+/**app.wxss**/
+.container{
+    background: #fafafa;
+}
+/**item**/
+.item{
+    position:relative;
+    width: 100%;
+    margin:10rpx 0;
+    padding:20rpx;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.userInfo{
+    display: flex;
+    height:35px;
+    line-height:35px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.authorIcon{
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.title{
+    width: 100%;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.foot{
+    font-size: 14px;
+}
+
+.type{
+    float: right;
+}
+
+/*itemlist*/
+
+.listHead{
+    position: relative;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    background-color: #fff;
+}
+
+.listInfo{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.listContent{
+    position: relative;
+    padding: 10px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 17px;
+    background-color: #fff;
+}
+
+.listAn{
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 0 10px;
+}

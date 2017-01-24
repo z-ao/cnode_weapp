@@ -1,0 +1,27 @@
+<template name="userans">
+    <view class="listAn">
+        <view class="itemList">
+            <view class="listHead">
+                <text>title</text>
+                <view class="listInfo">
+                    <text>num </text>
+                    <text>type </text>
+                    <text>name </text>
+                    <icon type="success" size="35"></icon>
+                </view>
+            </view>
+            <view class="listContent">
+                contentcontentcontentcontentcontentcontentcontentcontent
+            </view>
+            <view class="listAn">
+                <view class="userInfo">
+                    <icon type="success" size="35" style="height:35px"></icon>
+                    <text class="user"> username</text>
+                </view>
+                <view class="content">
+                    contentcontentcontentcontentcontentcontentcontentcontentcontentcontent
+                </view>
+            </view>
+        </view>
+    </view>
+</template>

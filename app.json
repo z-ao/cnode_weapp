@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/offer/offer",
+    "pages/answer/answer",
+    "pages/share/share",
+    "pages/user/user",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "dark",
+    "navigationBarTitleText": "cnode",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/index.png",
+      "selectedIconPath": "image/index-hl.png"
+    },
+    {
+      "pagePath": "pages/offer/offer",
+      "text": "offer",
+      "iconPath": "image/offer.png",
+      "selectedIconPath": "image/offer-hl.png"
+    },
+    {
+      "pagePath": "pages/answer/answer",
+      "text": "answer",
+      "iconPath": "image/question.png",
+      "selectedIconPath": "image/question-hl.png"
+    },
+    {
+      "pagePath": "pages/share/share",
+      "text": "share",
+      "iconPath": "image/share.png",
+      "selectedIconPath": "image/share-hl.png"
+    }]
+  }
+}

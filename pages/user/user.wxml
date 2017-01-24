@@ -1,0 +1,5 @@
+<view class="container">
+    <image src="{{avatar_url}}" class="headLogo"></image>
+    <text class="name">{{loginname}}</text>
+    <text class="joinDate">{{create_at}}</text>
+</view>
